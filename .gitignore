@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+bin/
+
+# Minecraft dev run directory
+run/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# stray javap/decompile output
+*.class
+/net/

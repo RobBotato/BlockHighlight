@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "blockhighlight",
+  "version": "${version}",
+  "name": "BlockHighlight",
+  "description": "Selected block coordinates can be marked client-side with custom highlights, borders, and a see-through display—all easily managed via an intuitive in-game GUI.",
+  "authors": ["botato"],
+  "contact": {
+    "homepage": "https://github.com/RobBotato/BlockHighlight",
+    "sources": "https://github.com/RobBotato/BlockHighlight",
+    "issues": "https://github.com/RobBotato/BlockHighlight/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/blockhighlight/icon.png",
+  "accessWidener": "blockhighlight.accesswidener",
+  "mixins": [
+    "blockhighlight.mixins.json"
+  ],
+  "entrypoints": {
+    "main": ["com.botato.blockhighlight.BlockMarkerMod"],
+    "client": ["com.botato.blockhighlight.BlockMarkerClientMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

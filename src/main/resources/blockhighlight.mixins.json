@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.botato.blockhighlight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinMinecraft"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
