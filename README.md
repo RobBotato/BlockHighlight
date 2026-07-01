@@ -1,10 +1,10 @@
 # BlockHighlight
 
-Selected block coordinates can be marked client-side with custom highlights, borders, and a see-through display—all easily managed via an intuitive in-game GUI. It's useful for marking build sites, points of interest, mob spawner locations, resource veins, or anything else you want to remember when you come back.
+Selected block coordinates can be marked client-side with custom highlights, borders, and a see-through display—all easily managed via an intuitive in-game GUI. It's useful for marking locations, mechanical traps, or block placements.
 
 HUD Toggle - `N`, Edit Mode - `I`, Manager GUI - `M`
 
-![In-Game Highlight Showcase](IMAGE_1_LINK_HERE)
+![In-Game Highlight Showcase](https://cdn.modrinth.com/data/fcH663b4/images/8a799d6ed6ade6887562deeb6005c74f9e3f02c3.gif)
 
 ---
 
@@ -14,9 +14,11 @@ HUD Toggle - `N`, Edit Mode - `I`, Manager GUI - `M`
 
 Press `I` to toggle **edit mode**. While active, left-clicking any block will place a colored highlight on it instead of mining it. Left-click a highlighted block again to remove it. A chat message confirms when edit mode is toggled on or off. Exit edit mode with `I` to resume normal gameplay — your highlights stay visible.
 
+![Edit Mode Text Showcase](https://cdn.modrinth.com/data/fcH663b4/images/f69bb84cdba6889f645225cef0b7fb41c7fc8410.png)
+
 ### Manager GUI
 
-![Settings and Marker List Showcase](IMAGE_2_LINK_HERE)
+![Settings and Marker List Showcase](https://cdn.modrinth.com/data/fcH663b4/images/eff0241e2b65a765c8031819e773891bbf4f14f4.png)
 
 Press `M` to open the **Marker Manager**, a split-panel in-game screen where you can view and manage all your highlighted blocks.
 
@@ -25,7 +27,7 @@ Press `M` to open the **Marker Manager**, a split-panel in-game screen where you
 
 ### Color Picker
 
-![Color Palette and Presets Showcase](IMAGE_3_LINK_HERE)
+![Color Palette and Presets Showcase](https://cdn.modrinth.com/data/fcH663b4/images/03f1e29bafc5755b8fd2a430995904e26099089d.png)
 
 Every marker can have its own color. The **color picker** gives you a full HSV (Hue-Saturation-Value) selector with a hex input field for precise control. You can also save colors as **presets** for quick reuse across all your markers.
 
